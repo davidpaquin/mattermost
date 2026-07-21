@@ -359,6 +359,7 @@ class UserSettingsModal extends React.PureComponent<Props, State> {
                 className='a11y__modal settings-modal UserSettingsModal'
                 show={this.state.show}
                 onHide={this.handleHide}
+                preventClose={true}
                 onExited={this.handleHidden}
                 ariaLabel={modalTitle}
                 compassDesign={true}
